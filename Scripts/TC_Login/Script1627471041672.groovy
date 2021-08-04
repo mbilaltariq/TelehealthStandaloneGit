@@ -17,3 +17,8 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+import cucumber_runner.Runner_Login
+
+
+
+CucumberKW.runWithCucumberRunner(Runner_Login.class)

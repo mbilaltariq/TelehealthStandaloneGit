@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>lohgi</name>
+   <name>TC_Logout</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>c93c1391-da9b-4ed2-b355-ef6ea1e037fa</testCaseGuid>
+   <testCaseGuid>a03a6d90-c092-40bd-87ee-d9b8d1ad2821</testCaseGuid>
 </TestCaseEntity>

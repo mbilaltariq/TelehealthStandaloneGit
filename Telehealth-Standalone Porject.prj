@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Project>
    <description></description>
-   <name>TelehealthStandaloneGit</name>
+   <name>Telehealth-Standalone Porject</name>
    <tag></tag>
-   <UUID>d43de751-a561-4854-aae7-87d19d8b9124</UUID>
+   <UUID>247645bf-2edd-46bb-8483-846d51c8d71d</UUID>
    <migratedVersion>5.9.0</migratedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
+   <projectFileLocation>D:\Ofifce Work\Persivia Telehealth\Telehealth Automation\Telehealth-Standalone Porject\Telehealth-Standalone Porject.prj</projectFileLocation>
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>
@@ -24,5 +25,5 @@
          </systemFolderConfiguration>
       </systemFolderList>
    </sourceContent>
-   <type>GENERIC</type>
+   <type>WEBUI</type>
 </Project>

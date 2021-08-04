@@ -1,0 +1,149 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Login with correct credentials",
+        "description": "",
+        "id": "login;login-with-correct-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8349619599,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "The user navigate to login page",
+            "match": {
+              "location": "Login_Steps.user_navigate_to_loginpage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2600699600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "The user enters \u003cUsername\u003e and \u003cPassword\u003e",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003cUsername\u003e",
+                  "offset": 16
+                },
+                {
+                  "val": "\u003cPassword\u003e",
+                  "offset": 31
+                }
+              ],
+              "location": "Login_Steps.user_enters_username_password(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 703579399,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Click on the login button",
+            "match": {
+              "location": "Login_Steps.User_click_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2095882100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "The user will nevigate to the home page",
+            "match": {
+              "location": "Login_Steps.user_nevigate_homepage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 17,
+        "name": "Login with incorrect credentials",
+        "description": "",
+        "id": "login;login-with-incorrect-credentials;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4423672600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User navigates to login page",
+            "match": {
+              "location": "Login_Steps.user_lands_on_loginpage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2483328700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User enters weqw and sadasd",
+            "match": {
+              "arguments": [
+                {
+                  "val": "weqw",
+                  "offset": 12
+                },
+                {
+                  "val": "sadasd",
+                  "offset": 21
+                }
+              ],
+              "location": "Login_Steps.user_enters_username_password_as(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 604878799,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User click on the login button",
+            "match": {
+              "location": "Login_Steps.User_clicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2070131599,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "The user will see the authentication message",
+            "match": {
+              "location": "Login_Steps.user_see_authentication_message()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "Include/features/Regression/Login.feature",
+    "tags": []
+  }
+]

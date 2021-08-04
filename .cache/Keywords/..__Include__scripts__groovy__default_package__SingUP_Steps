@@ -1,0 +1,30 @@
+{
+  "keywordFileContentHash": "F36FFBC7D806B3389DBF2223467F92B3",
+  "keywordClasses": [
+    {
+      "name": "default_package.SingUP_Steps",
+      "keywordMethods": [
+        {
+          "name": "user_set_RoomName",
+          "parameters": [
+            {
+              "name": "RoomName",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

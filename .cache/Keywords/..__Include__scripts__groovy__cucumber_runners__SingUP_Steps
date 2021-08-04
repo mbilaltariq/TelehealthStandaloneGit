@@ -1,0 +1,30 @@
+{
+  "keywordFileContentHash": "355CFFD49B0F2CE7121AE2AC1647B387",
+  "keywordClasses": [
+    {
+      "name": "cucumber_runners.SingUP_Steps",
+      "keywordMethods": [
+        {
+          "name": "user_set_RoomName",
+          "parameters": [
+            {
+              "name": "RoomName",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}
