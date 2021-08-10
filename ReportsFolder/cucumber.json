@@ -4,146 +4,470 @@
     "elements": [
       {
         "line": 3,
-        "name": "Login with correct credentials",
+        "name": "Don\u0027t Have an Account",
         "description": "",
-        "id": "login;login-with-correct-credentials",
+        "id": ";don-t-have-an-account",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 8349619599,
+              "duration": 16913816100,
               "status": "passed"
             },
             "line": 4,
-            "name": "The user navigate to login page",
+            "name": "the user navigates to the Login Page",
             "match": {
-              "location": "Login_Steps.user_navigate_to_loginpage()"
+              "location": "SingUP_Steps.navigate_to_the_loginPage()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 2600699600,
+              "duration": 699216099,
               "status": "passed"
             },
             "line": 5,
-            "name": "The user enters \u003cUsername\u003e and \u003cPassword\u003e",
+            "name": "the user clicks on Don\u0027t have an account option",
             "match": {
-              "arguments": [
-                {
-                  "val": "\u003cUsername\u003e",
-                  "offset": 16
-                },
-                {
-                  "val": "\u003cPassword\u003e",
-                  "offset": 31
-                }
-              ],
-              "location": "Login_Steps.user_enters_username_password(String,String)"
+              "location": "SingUP_Steps.user_clicks_SingUp()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 703579399,
+              "duration": 838964800,
               "status": "passed"
             },
             "line": 6,
-            "name": "Click on the login button",
+            "name": "the user will navigated to the Sign Up page",
             "match": {
-              "location": "Login_Steps.User_click_login_button()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 2095882100,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "The user will nevigate to the home page",
-            "match": {
-              "location": "Login_Steps.user_nevigate_homepage()"
+              "location": "SingUP_Steps.user_navigated_to_Signup()"
             },
             "keyword": "Then "
           }
         ]
       },
       {
-        "line": 17,
-        "name": "Login with incorrect credentials",
+        "line": 23,
+        "name": "Register with valid fields",
         "description": "",
-        "id": "login;login-with-incorrect-credentials;;2",
+        "id": ";register-with-valid-fields;;2",
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 4423672600,
+              "duration": 6767939901,
               "status": "passed"
             },
-            "line": 10,
-            "name": "User navigates to login page",
+            "line": 9,
+            "name": "the user navigates to the SingUp Page",
             "match": {
-              "location": "Login_Steps.user_lands_on_loginpage()"
+              "location": "SingUP_Steps.navigate_to_the_SignUPpage()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 2483328700,
+              "duration": 924398200,
               "status": "passed"
             },
-            "line": 11,
-            "name": "User enters weqw and sadasd",
+            "line": 10,
+            "name": "the user Enter his Baraak",
             "match": {
               "arguments": [
                 {
-                  "val": "weqw",
-                  "offset": 12
-                },
-                {
-                  "val": "sadasd",
-                  "offset": 21
+                  "val": "Baraak",
+                  "offset": 19
                 }
               ],
-              "location": "Login_Steps.user_enters_username_password_as(String,String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 604878799,
-              "status": "passed"
-            },
-            "line": 12,
-            "name": "User click on the login button",
-            "match": {
-              "location": "Login_Steps.User_clicks_on_login_button()"
+              "location": "SingUP_Steps.user_enters_FirstName(String)"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 2070131599,
+              "duration": 664289901,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "the user Entered his Obama",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Obama",
+                  "offset": 21
+                }
+              ],
+              "location": "SingUP_Steps.user_enters_LastName(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 681029300,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "the user set his Workmy",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Workmy",
+                  "offset": 17
+                }
+              ],
+              "location": "SingUP_Steps.user_set_RoomName(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 712506800,
               "status": "passed"
             },
             "line": 13,
-            "name": "The user will see the authentication message",
+            "name": "the user enter his qwerty@persivia.com",
             "match": {
-              "location": "Login_Steps.user_see_authentication_message()"
+              "arguments": [
+                {
+                  "val": "qwerty@persivia.com",
+                  "offset": 19
+                }
+              ],
+              "location": "SingUP_Steps.user_set_Email(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 699874800,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "the user entered his P@k12345",
+            "match": {
+              "arguments": [
+                {
+                  "val": "P@k12345",
+                  "offset": 21
+                }
+              ],
+              "location": "SingUP_Steps.user_set_Password(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 706707599,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "the user confirmed his P@k12345",
+            "match": {
+              "arguments": [
+                {
+                  "val": "P@k12345",
+                  "offset": 23
+                }
+              ],
+              "location": "SingUP_Steps.user_confirms_Passowrds(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 383908400,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "the user clicks on the i agree button",
+            "match": {
+              "location": "SingUP_Steps.user_agree_termsConstions()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 477727800,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "clicks on the Singup button",
+            "match": {
+              "location": "SingUP_Steps.user_clicks_on_SingUp()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3144400,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "the profile of the user will be created",
+            "match": {
+              "location": "SingUP_Steps.profile_is_created()"
             },
             "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3043941100,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "the user will be navigated to the Home page",
+            "match": {
+              "location": "SingUP_Steps.user_navigated_to()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 25,
+        "name": "Signup With Empty Fields",
+        "description": "",
+        "id": ";signup-with-empty-fields",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4470496100,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "the user navigates to the Signup Page",
+            "match": {
+              "location": "SingUP_Steps.navigates_to_the_Signuppage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1244953101,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "the user clicks on the SignUp button without any information",
+            "match": {
+              "location": "SingUP_Steps.user_clicks_on_signup()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 283500,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "the user will not be able to Register a user",
+            "match": {
+              "location": "SingUP_Steps.user_is_registerd()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2853565800,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "user will see the error messages against the fields",
+            "match": {
+              "location": "SingUP_Steps.user_will_see_error_messages()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 46,
+        "name": "Register with Same Room Name",
+        "description": "",
+        "id": ";register-with-same-room-name;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3698678899,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "the user navigate to the SingUp Page",
+            "match": {
+              "location": "SingUP_Steps.navigate_to_the_SignuPpage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1077873899,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "user fill his Baraak",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Baraak",
+                  "offset": 14
+                }
+              ],
+              "location": "SingUP_Steps.user_enters_firstname(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 677631200,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "the user filled Obama",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Obama",
+                  "offset": 16
+                }
+              ],
+              "location": "SingUP_Steps.user_enters_lastname(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 740169000,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "the user Set his 100USAaPresidentObama124",
+            "match": {
+              "arguments": [
+                {
+                  "val": "100USAaPresidentObama124",
+                  "offset": 17
+                }
+              ],
+              "location": "SingUP_Steps.user_set_roomname(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 776324099,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "user entered his 199barakobamausmm@persivia.com",
+            "match": {
+              "arguments": [
+                {
+                  "val": "199barakobamausmm@persivia.com",
+                  "offset": 17
+                }
+              ],
+              "location": "SingUP_Steps.user_set_email(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 737828200,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "the user placed his P@k12345",
+            "match": {
+              "arguments": [
+                {
+                  "val": "P@k12345",
+                  "offset": 20
+                }
+              ],
+              "location": "SingUP_Steps.user_set_password(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 711563001,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "the user Confirmed his P@k12345",
+            "match": {
+              "arguments": [
+                {
+                  "val": "P@k12345",
+                  "offset": 23
+                }
+              ],
+              "location": "SingUP_Steps.user_confirms_passowrds(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 433091799,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "the user Clicks on the i agree button",
+            "match": {
+              "location": "SingUP_Steps.user_agree_terms_Conditions()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 536720899,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "clicks on the SingUP button",
+            "match": {
+              "location": "SingUP_Steps.user_clicks_on_Singup_btton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 675826101,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "the user profile will not be created",
+            "match": {
+              "location": "SingUP_Steps.Profile_is_not_created()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 387308100,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "the user will see the error on the Room name",
+            "match": {
+              "location": "SingUP_Steps.user_see_errors()"
+            },
+            "keyword": "And "
           }
         ]
       }
     ],
-    "name": "Login",
+    "name": "",
     "description": "",
-    "id": "login",
+    "id": "",
     "keyword": "Feature",
-    "uri": "Include/features/Regression/Login.feature",
+    "uri": "Include/features/Regression/SignUp.feature",
     "tags": []
   }
 ]

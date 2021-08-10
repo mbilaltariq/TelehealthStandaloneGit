@@ -115,9 +115,14 @@ class SingUP_Steps {
 
 	@And("the user enter his (.*)")
 	def user_set_Email(String Email) {
-		WebUI.setText(findTestObject('Object Repository/Regression/Sign Up/Obj_Email'),
-				Email)
+
+		int random;
+		random = (int)(Math.random()*500)
+
+
+		WebUI.setText(findTestObject('Object Repository/Regression/Sign Up/Obj_Email'),"" +random+ "" +Email+ "")
 	}
+
 
 	@And("the user entered his (.*)")
 	def user_set_Password(String Password) {
@@ -258,5 +263,8 @@ class SingUP_Steps {
 	@And("the user will see the error on the Room name")
 	def user_see_errors() {
 		WebUI.click(findTestObject('Object Repository/Regression/Sign Up/Obj_RoomName'))
+		WebUI.closeBrowser()
+		
+	
 	}
 }

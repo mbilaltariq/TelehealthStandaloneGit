@@ -48,6 +48,8 @@ class Login_Steps {
 	/**
 	 * The step definitions below match with Katalon sample Gherkin steps
 	 */
+
+
 	@Given("The user navigate to login page")
 	def user_navigate_to_loginpage() {
 		WebUI.openBrowser('')

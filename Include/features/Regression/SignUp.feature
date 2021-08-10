@@ -19,8 +19,8 @@ Feature:
     And the user will be navigated to the Home page
 
     Examples: 
-      | FirstName | LastName | RoomName | Email                                     | Password | ConfirmPassword |
-      | Baraak    | Obama    | Workmy   | 8775521002252AUSA1usolfgbama1@persivia.com | P@k12345 | P@k12345        |
+      | FirstName | LastName | RoomName | Email               | Password | ConfirmPassword |
+      | Baraak    | Obama    | Workmy   | qwerty@persivia.com | P@k12345 | P@k12345        |
 
   Scenario: Signup With Empty Fields
     Given the user navigates to the Signup Page

@@ -23,4 +23,10 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/TC_Login</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>b00f9822-a578-4d87-9fe6-646521cc5976</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TC_Logout</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>
